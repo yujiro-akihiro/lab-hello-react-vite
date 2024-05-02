@@ -1,0 +1,17 @@
+#about {
+    display: flex; /* 子要素を横に配置する */
+    justify-content: space-between; /* 子要素を均等に配置する */
+  }
+  
+  /* 子要素のスタイル */
+  #about > div {
+    flex: 1; /* 幅を均等にする */
+    text-align: center; /* テキストを中央揃えにする（任意）*/
+  }
+/* NOTE
+<section id="about">
+<div id="declarative">Declarative</div>
+<div id="components">Components</div>
+<div id="single-way">Single-way</div>
+<div id="jsx">JSX</div>
+</section> */
