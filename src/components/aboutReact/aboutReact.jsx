@@ -1,5 +1,5 @@
 import React from "react";
-import './aboutReact.css';
+import "./aboutReact.css";
 import Declarative from "../aboutReact/Declarative/Declarative";
 import Components from "../aboutReact/Components/Components";
 import SingleWay from "../aboutReact/SingleWay/SingleWay";
@@ -9,8 +9,8 @@ function AboutReact() {
   return (
     <>
       <section id="aboutReact">
-          <Declarative />
-          <Components />
+        <Declarative />
+        <Components />
         <SingleWay />
         <JSX />
       </section>
