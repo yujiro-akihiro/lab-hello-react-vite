@@ -3,15 +3,15 @@ import "../commonStyles.css"; // common styles for each section from about React
 
 function JSX() {
   return (
-   
     <>
-      <section id="JSX">
+      <section className="commonContainer">
         <div className="img">
-        <img src="/src/assets/ironhack-logo-xs-dark.png" alt="Iron Hack Logo" />
-
+          <img src="/src/assets/icon4.png" alt="JSX" />
         </div>
         <div className="title">JSX</div>
-        <div className="p">Statically-typed, designed to run on modern browsers.</div>
+        <div className="p">
+          Statically-typed, designed to run on modern browsers.
+        </div>
       </section>
     </>
   );

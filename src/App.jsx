@@ -1,4 +1,4 @@
-// import "./styles.css";
+import "./styles/style.css";
 // We import other components to be able to use them inside of this component
 import MainFrame from "./components/MainFrame/MainFrame";
 

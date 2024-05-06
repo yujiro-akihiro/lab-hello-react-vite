@@ -5,9 +5,9 @@ function Declarative() {
   return (
    
     <>
-      <section id="Declarative">
+      <section className="commonContainer">
         <div className="img">
-        <img src="/src/assets/ironhack-logo-xs-dark.png" alt="Iron Hack Logo" />
+        <img src="/src/assets/icon1.png" alt="Declarative" />
         </div>
         <div className="title">Declarative</div>
         <div className="p">React makes it painless to create interactive UIs.</div>

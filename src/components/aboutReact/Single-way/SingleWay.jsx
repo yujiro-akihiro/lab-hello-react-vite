@@ -4,12 +4,10 @@ import "../commonStyles.css"; // common styles for each section from about React
 function SingleWay() {
   return (
     <>
-      <section id="SingleWay">
+      <section className="commonContainer">
         <div className="img">
-          <img
-            src="/src/assets/ironhack-logo-xs-dark.png"
-            alt="Iron Hack Logo"
-          />
+        <img src="/src/assets/icon3.png" alt="Single-Way" />
+
         </div>
         <div className="title">SingleWay</div>
         <div className="p">

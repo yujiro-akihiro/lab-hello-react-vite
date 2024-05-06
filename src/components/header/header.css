@@ -7,7 +7,8 @@ h1 {
 
 p {
     font-size: 14px;
-    line-height: 1.4; /* Adjust hight */   
+    line-height: 1.4; /* Adjust hight */  
+    margin-bottom: 40px; /* shorten the gap between h1&P  */ 
 }
 
 /* Got to check about font size maybe use rem?

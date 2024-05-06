@@ -5,9 +5,9 @@ function Components() {
   return (
    
     <>
-      <section id="Declarative">
+      <section className="commonContainer">
         <div className="img">
-        <img src="/src/assets/ironhack-logo-xs-dark.png" alt="Iron Hack Logo" />
+        <img src="/src/assets/icon2.png" alt="components" />
 
         </div>
         <div className="title">Components</div>
