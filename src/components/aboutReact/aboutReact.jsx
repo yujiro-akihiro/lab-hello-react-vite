@@ -1,6 +1,8 @@
 import React from "react";
 import './aboutReact.css';
 import Declarative from "../aboutReact/Declarative/Declarative";
+import Components from "../aboutReact/Components/Components";
+import SingleWay from "../aboutReact/SingleWay/SingleWay";
 import JSX from "../aboutReact/JSX/JSX";
 
 function AboutReact() {
@@ -8,8 +10,8 @@ function AboutReact() {
     <>
       <section id="aboutReact">
           <Declarative />
-        <div id="components">Components</div>
-        <div id="single-way">Single-way</div>
+          <Components />
+        <SingleWay />
         <JSX />
       </section>
     </>

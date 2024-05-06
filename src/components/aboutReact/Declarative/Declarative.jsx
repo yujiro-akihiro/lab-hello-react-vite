@@ -8,7 +8,7 @@ function Declarative() {
       <section id="Declarative">
         <div class="img">IMG</div>
         <div class="tittle">Declarative</div>
-        <div class="p">ppppppppppppp</div>
+        <div class="p">React makes it painless to create interactive UIs.</div>
       </section>
     </>
   );
