@@ -1,5 +1,5 @@
 import React from "react";
-import "../commonStyles.css"; // 共通のスタイルをインポートします
+import "../commonStyles.css"; // common styles for each section from about React
 
 function Declarative() {
   return (

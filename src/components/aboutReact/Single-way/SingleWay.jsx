@@ -1,18 +1,18 @@
 import React from "react";
-import "../commonStyles.css"; // 共通のスタイルをインポートします
+import "../commonStyles.css"; // common styles for each section from about React
 
 function SingleWay() {
   return (
     <>
       <section id="SingleWay">
-        <div class="img">
+        <div className="img">
           <img
             src="/src/assets/ironhack-logo-xs-dark.png"
             alt="Iron Hack Logo"
           />
         </div>
-        <div class="tittle">SingleWay</div>
-        <div class="p">
+        <div className="title">SingleWay</div>
+        <div className="p">
           A set of immutable values are passed to the component's.
         </div>
       </section>

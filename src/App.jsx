@@ -1,17 +1,10 @@
 // import "./styles.css";
 // We import other components to be able to use them inside of this component
 import MainFrame from "./components/MainFrame/MainFrame";
-import NavBar from "./components/navBar/navBar";
-import Header from "./components/header/header";
-import AboutReact from "./components/aboutReact/aboutReact";
 
 function App() {
   return (
-    <MainFrame>
-      <NavBar />
-      <Header />
-      <AboutReact />
-    </MainFrame>
+    <MainFrame/>
   );
 }
 

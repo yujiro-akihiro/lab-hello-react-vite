@@ -1,8 +1,17 @@
 
+  .img {
+    display: flex;
+    justify-content: left;
+  }
+
+
 .title {
-    /* 共通のスタイルをここに追加します */
-    font-size: 40px;
+    /* common style for 4div(s) in aboutReact components */
+    font-size: 20px;
     font-weight: bold;
-    /* 他のスタイルを追加します */
   }
   
+  .p {
+    /* common style for 4div(s) in aboutReact components */
+    font-size: 0.8rem;
+  }

@@ -1,5 +1,6 @@
 import React from "react";
-// import Button from "./button/button"; // button.jsxファイルがあるディレクトリに移動してから、buttonフォルダーを参照
+import "./header.css";
+import Button from "../button/button"; // button.jsxファイルがあるディレクトリに移動してから、buttonフォルダーを参照
 
 function Header() {
   return (
@@ -16,7 +17,7 @@ function Header() {
         <br />
         and become a super Ninja developer.
       </p>
-      {/* <Button /> */}
+      <Button />
     </>
   );
 }

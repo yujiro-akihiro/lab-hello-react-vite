@@ -1,11 +1,18 @@
+// MainFrame.jsx
 import React from "react";
 import "./MainFrame.css";
+import NavHeaderFrame from "../NavHeaderFrame/NavHeaderFrame"; // パス修正
+import AboutReactFrame from "../AboutReactFrame/AboutReactFrame";
 
-function MainFrame({ children }) {
-  return <div className="mainFrame">{children}</div>;
+function MainFrame() {
+  return (
+    <div className="mainFrame">
+      <NavHeaderFrame />
+      <AboutReactFrame />
+    </div>
+  );
 }
 
 export default MainFrame;
 
-// div mainFrame as container of "children" = <NavBar />, <Header />, <AboutReact />
-// margin set up on MainFrame.css = 20,40,20,40 px
+

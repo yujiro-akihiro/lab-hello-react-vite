@@ -2,7 +2,7 @@ import React from "react";
 import "./aboutReact.css";
 import Declarative from "../aboutReact/Declarative/Declarative";
 import Components from "../aboutReact/Components/Components";
-import SingleWay from "../aboutReact/SingleWay/SingleWay";
+import SingleWay from "./Single-way/SingleWay";
 import JSX from "../aboutReact/JSX/JSX";
 
 function AboutReact() {
