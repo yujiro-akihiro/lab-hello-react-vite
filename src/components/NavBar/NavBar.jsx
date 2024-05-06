@@ -1,8 +1,5 @@
 import React from "react";
-import './NavBar.css'; // NavBar.cssを./で始めて相対パスとして読み込む
-// !!! Check, how to set a img directory.
-// try 1    <img src="./src/assets/logo.png" alt="Iron Hack Logo" /> !!! 
-// try 2    <img src="src/assets/logo.png" alt="Iron Hack Logo" />　/ ✅ this one works.
+import "./navBar.css";
 
 function NavBar() {
   return (

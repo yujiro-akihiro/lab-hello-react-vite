@@ -1,11 +1,14 @@
 import React from "react";
-import Button from "./Button/Button";
+// import Button from "./button/button"; // button.jsxファイルがあるディレクトリに移動してから、buttonフォルダーを参照
 
 function Header() {
   return (
     //  ↓ this one explain ↓
     <>
-      <h1>Say hello to<br /> ReactJS</h1>
+      <h1>
+        Say hello to
+        <br /> ReactJS
+      </h1>
       <p>
         You will learn how to use
         <br />
@@ -13,7 +16,7 @@ function Header() {
         <br />
         and become a super Ninja developer.
       </p>
-      <Button />
+      {/* <Button /> */}
     </>
   );
 }

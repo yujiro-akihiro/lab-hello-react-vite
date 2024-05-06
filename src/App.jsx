@@ -1,25 +1,16 @@
 // import "./styles.css";
 // We import other components to be able to use them inside of this component
-import NavBar from "./components/NavBar/NavBar";
-import Header from "./components/Header";
-import Footer from "./components/Footer/Footer";
+import NavBar from "./components/navBar/navBar";
+import Header from "./components/header/header";
+import AboutReact from "./components/aboutReact/aboutReact";
 
-// import Button from "./components/Button";
-// import Gallery from "./components/Gallery";
-
-// React Component <App />
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Header />
-      <Footer />
-
-      {/* <Button /> */}
-      {/* <Button /> */}
-
-      {/* <Gallery /> */}
+      <AboutReact />
     </div>
   );
 }
