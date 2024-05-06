@@ -1,5 +1,5 @@
 import React from "react";
-// import './aboutReact.css';
+import "../commonStyles.css"; // 共通のスタイルをインポートします
 
 function JSX() {
   return (
